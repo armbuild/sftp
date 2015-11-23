@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM armbuild/debian:jessie
 MAINTAINER Adrian Dvergsdal [atmoz.net]
 
 RUN apt-get update && \
